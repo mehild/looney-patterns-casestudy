@@ -1,5 +1,8 @@
 :root{
-
+    --font-sans-serif: Quicksand, sans-serif;
+    --black: #1a1a1a;
+    --light-pink: #FFF0F4;
+    --dark-pink: #ffa8c3;
 }
 
 html {
@@ -10,5 +13,6 @@ html {
   }
 
 body {
-    font-family: 'Quicksand', sans-serif;
+    font-family: var(--font-sans-serif);
+    color: var(--black);
 }
