@@ -16,10 +16,11 @@ body {
     font-family: var(--font-sans-serif);
     color: var(--black);
     line-height: 1.8;
+    background: var(--light-pink);
 }
 
 img {
     max-width: 80%;
     border: 1px solid var(--dark-pink);
-
+    
 }
