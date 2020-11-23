@@ -1,2 +1,2 @@
 # looney-patterns-casestudy
-A Case Study of Design System for Web Development
+Case Study of a Design System for Web Development
