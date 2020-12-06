@@ -11,5 +11,5 @@ Final Web Development project for Minneapolis College of Art and Deisgn. Using L
 
 ## Author
 
-Project Code: Megan Hild
+Project Code: Megan Hild (#)
 Source Design: Looney Patterns (https://looneypatterns.com/)
