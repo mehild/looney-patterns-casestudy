@@ -1,9 +1,9 @@
 # Looney Patterns Case Study
-Case Study of a Design System for Web Development
+Case Study of a Design System for Web Development.
 
 ## About
 
-Web Development project for Minneapolis College of Art and Deisgn. Using Looney Patterns (https://looneypatterns.com/) as a case study... created a component library.
+Final Web Development project for Minneapolis College of Art and Deisgn. Using Looney Patterns (https://looneypatterns.com/) as a case study.
 
 - [Initial Design Study]()
 - [Component Library]()
