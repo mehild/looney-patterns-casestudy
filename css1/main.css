@@ -198,10 +198,26 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
   align-content: start;
 }
+.item img {
+	width: 80px;
+	height: 80px;
+}
+
+.item p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
 
 /*section 3*/
 
-
+.slider img {
+	margin: 20px 0 60px;
+	position: relative;
+	z-index: 9997;
+}
 
 
 /*footer*/
