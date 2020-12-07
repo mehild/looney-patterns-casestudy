@@ -5,7 +5,7 @@ Final Web Development project for Minneapolis College of Art and Deisgn. Using [
 
 - [Initial Design Study](/hild_systemstudy.pdf)
 - [Component Library](https://github.com/mehild/looney-patterns-casestudy.git)
-- [Homepage Recreation]()
+- [Homepage Recreation](https://mehild.github.io/looney-patterns-casestudy/)
 
 ## Author
 
