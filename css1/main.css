@@ -147,7 +147,6 @@ a {
     grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
     align-content: start;
 }
-}
 
 .pattern-container img {
   border-radius: 10px;
@@ -158,7 +157,7 @@ a {
 }
 
 .pattern-right { 
-  position: relative; 
+  position: relative;
 }
 
 .pattern:after {
