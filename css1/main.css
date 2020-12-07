@@ -210,6 +210,9 @@ a {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+.patterns-container h3 { 
+  margin: 10px 0; 
+}
 
 /*section 3*/
 
