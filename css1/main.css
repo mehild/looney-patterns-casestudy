@@ -12,3 +12,20 @@ body {
     font-size: 18px;
     background: var(--light-pink);
 }
+/*link hover*/
+a {
+	color: var(--black);
+	text-decoration: none;
+}
+.link {
+  border-bottom: 2px solid var(--black);
+}
+.link:hover { 
+	background: var(--black);
+	color: var(--light-pink);
+}
+/*img default*/
+img {
+	max-width: 100%;
+	height: auto;
+}
