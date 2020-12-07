@@ -5,21 +5,10 @@
     --dark-pink: #ffa8c3;
 }
 
-html {
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-
 body {
     font-family: var(--font-sans-serif);
     color: var(--black);
-    line-height: 1.8;
+    line-height: 1.5;
     font-size: 18px;
-}
-
-img {
-    max-width: 50%;
-    border: 1px solid var(--dark-pink);
+    background: var(--light-pink);
 }
