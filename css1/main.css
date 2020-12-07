@@ -191,13 +191,15 @@ a {
 	transform: translate(-50%, -50%);
 }
 
+/*section 2*/
+.item { 
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
+  align-content: start;
+}
 
-
-
-
-
-
-
+/*section 3*/
 
 
 
