@@ -117,6 +117,13 @@ a {
 
 /*section 1*/
 
+.patterns {
+	position: relative;
+	max-width: 1040px;
+	margin: 0 auto;
+	padding: 40px 0 15px;
+}
+
 .whaaat-copy {
   margin: 0 0 60px 0;
   padding: 0 120px;
@@ -132,16 +139,82 @@ a {
 
 /*patterns*/
 
-.patterns {
-	position: relative;
-	max-width: 1040px;
-	margin: 0 auto;
-	padding: 40px 0 15px;
+.pattern-container {
+    position: relative;
+    border-bottom: 1px solid #FFA8C3;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
+    align-content: start;
 }
+}
+
+.pattern-container img {
+  border-radius: 10px;
+}
+
+.pattern-container .pattern { 
+  line-height: 0; 
+}
+
+.pattern-right { 
+  position: relative; 
+}
+
+.pattern:after {
+	background: #FFA8C3;
+	display: block;
+	width: 1px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.hover {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+
+.hover:hover { 
+  opacity: 1; 
+}
+
+.hover-btn {
+	width: 80px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /*footer*/
 
 .line {
 	width: 180px;
 	margin: 60px auto 60px;
+}
+
+.instagram{
+    position: relative;
+    z-index: 2;
+    display: block;
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto 60px;
 }
