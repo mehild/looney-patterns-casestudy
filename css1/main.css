@@ -37,6 +37,32 @@ a {
 	height: 100%;
 } 
 
+/*titles*/
+.whaaat-title {
+	max-width: 226px;
+	margin: 0 auto 60px;
+}
+
+.features-title {
+	max-width: 226px;
+	margin: 0 auto 60px;
+}
+
+.logo-image {
+	width: 480px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo {
+  width: 100%;
+  height: 100vh;
+  min-height: 540px;
+}
+
+/*header*/
 /*nav*/
 .free {
   width: calc(100% - 60px);
@@ -74,31 +100,6 @@ a {
 	z-index: 9998;
 }
 
-/*titles*/
-.whaaat-title {
-	max-width: 226px;
-	margin: 0 auto 60px;
-}
-
-.features-title {
-	max-width: 226px;
-	margin: 0 auto 60px;
-}
-
-.logo-image {
-	width: 480px;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.logo {
-  width: 100%;
-  height: 100vh;
-  min-height: 540px;
-}
-
 /*transition*/
 .top {
 	position: relative;
@@ -114,7 +115,7 @@ a {
   text-align: center;
 }
 
-/*patterns*/
+/*section 1*/
 
 .whaaat-copy {
   margin: 0 0 60px 0;
@@ -131,14 +132,16 @@ a {
 
 /*patterns*/
 
-.line {
-	width: 180px;
-	margin: 60px auto 60px;
-}
-
 .patterns {
 	position: relative;
 	max-width: 1040px;
 	margin: 0 auto;
 	padding: 40px 0 15px;
+}
+
+/*footer*/
+
+.line {
+	width: 180px;
+	margin: 60px auto 60px;
 }
