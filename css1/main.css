@@ -216,11 +216,6 @@ a {
 
 /*section 3*/
 
-.slider img {
-	margin: 20px 0 60px;
-	position: relative;
-}
-
 .dot {
   cursor: pointer;
   height: 15px;
@@ -229,6 +224,15 @@ a {
   background-color: var(--dark-pink);
   border-radius: 50%;
   display: inline-block;
+}
+.slides img{
+  display: 
+}
+
+.slideshow {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
 
 /*footer*/
