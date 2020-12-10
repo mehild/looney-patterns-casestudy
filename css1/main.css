@@ -210,7 +210,7 @@ a {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
-.patterns-container h3 { 
+.patterns-features h3 { 
   margin: 10px 0; 
 }
 
@@ -219,7 +219,7 @@ a {
 .slider img {
 	margin: 20px 0 60px;
 	position: relative;
-
+	z-index: 9997;
 }
 
 
