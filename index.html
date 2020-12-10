@@ -77,32 +77,33 @@
     <p>Includes .ai, .svg, .afdesign & .png files.</p>
     </div>
     </section>
+
 <!-- section 3 -->
-    <section cLass="slideshow">
+<!-- found various resources to create slideshow -->
     <h3>Showcase</h3>
-        <div class="slides">
-        <img src="images/s3-showcase-business-card.png" alt="business cards"/>
+    <div class="slider">
+        <span id="slide-1"></span>
+        <span id="slide-2"></span>
+        <span id="slide-3"></span>
+        <div class="image-container">
+          <img src="images/s3-showcase-business-card.png" class="slide"/>
+          <img src="images/s3-showcase-t-shirt.png" class="slide"/>
+          <img src="images/s3-showcase-phone-case.png" class="slide"/>
         </div>
-        <div class="slides">
-        <img src="images/s3-showcase-t-shirt.png" alt="t-shirt"/>
+        <div class="buttons">
+          <a href="#slide-1"></a>
+          <a href="#slide-2"></a>
+          <a href="#slide-3"></a>
         </div>
-        <div class="slides">
-        <img src="images/s3-showcase-phone-case.png" alt="iphone case"/>
         </div>
-<!-- found this on w3schools (feel like there is a better way) -->
-    <div>
-        <span class="dot" onclick="currentSlide(1)"></span> 
-        <span class="dot" onclick="currentSlide(2)"></span> 
-        <span class="dot" onclick="currentSlide(3)"></span> 
-      </div>
-    </section>
+
 <!-- footer -->
 <footer>
     <p>Have a question? Drop me a <a href="#" class="link">line</a>.</p>
     <div class="line">
         <img src="images/footer-line.png" alt="line image">
     </div>
-    <a href="#!"><img src="images/footer-rocket.png" alt="rocket"></a>
+    <a href="#!"><img class="rocket" src="images/footer-rocket.png" alt="rocket"></a>
     <a href="#!"><img class="instagram" src="images/footer-instagram.png" alt="instagram link"/></a>
     <p> &#169;2020</p>
 </footer>

@@ -216,23 +216,52 @@ a {
 
 /*section 3*/
 
-.dot {
-  cursor: pointer;
+.slider {
+  width: 500px;
+  height: 300px;
+  background-color; var(--dark-pink);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  text-align: center;
+  overflow: hidden;
+}
+.image-container {
+  width: 1500px;
+  background-color: var(--light-pink);
+  height: 300px;
+  clear: both;
+  position: relative;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+  transition: left 2s;
+}
+.slide {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+#slide-1:target ~ .image-container {
+  left: 0px;
+}
+#slide-2:target ~ .image-container {
+  left: -500px;
+}
+#slide-3:target ~ .image-container {
+  left: -1000px;
+}
+.buttons {
+  position: relative;
+  top: -20px;
+}
+.buttons a {
+  display: inline-block;
   height: 15px;
   width: 15px;
-  margin: 0 2px;
+  border-radius: 50px;
   background-color: var(--dark-pink);
-  border-radius: 50%;
-  display: inline-block;
-}
-.slides img{
-  display: 
-}
-
-.slideshow {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
 }
 
 /*footer*/
@@ -242,10 +271,18 @@ a {
 	margin: 60px auto 60px;
 }
 
-.instagram{
-    position: relative;
-    display: block;
-    width: 100%;
-    max-width: 280px;
-    margin: 0 auto 60px;
+.instagram {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 280px;
+  margin: 0 auto 60px;
+}
+
+.rocket {
+  display: block;
+	width: 120px;
+	position: absolute;
+	right: 120px;
+	bottom: 220px;
 }
