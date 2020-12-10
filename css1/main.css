@@ -13,53 +13,53 @@ body {
     font-size: 18px;
 }
 img {
-	max-width: 100%;
-	height: auto;
+	  max-width: 100%;
+	  height: auto;
 }
 /*link hover*/
 a {
-	color: var(--black);
-	text-decoration: none;
+	  color: var(--black);
+	  text-decoration: none;
 }
 .link {
-  border-bottom: 2px solid var(--black);
+    border-bottom: 2px solid var(--black);
 }
 .link:hover { 
-	background: var(--black);
-	color: var(--light-pink);
+	  background: var(--black);
+	  color: var(--light-pink);
 }
 
 /*page background*/
 .page {
-  background: var(--light-pink) url(https://looneypatterns.com/images/bg.png) fixed repeat;
-  background-size: 144px;
-  width: 100%;
-	height: 100%;
+    background: var(--light-pink) url(https://looneypatterns.com/images/bg.png) fixed repeat;
+    background-size: 144px;
+    width: 100%;
+	  height: 100%;
 } 
 
 /*titles*/
 .whaaat-title {
-	max-width: 226px;
-	margin: 0 auto 60px;
+	  max-width: 226px;
+	  margin: 0 auto 60px;
 }
 
 .features-title {
-	max-width: 226px;
-	margin: 0 auto 60px;
+	  max-width: 226px;
+	  margin: 0 auto 60px;
 }
 
 .logo-image {
-	width: 480px;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-  transform: translate(-50%, -50%);
+	  width: 480px;
+	  position: fixed;
+	  top: 50%;
+	  left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .logo {
-  width: 100%;
-  height: 100vh;
-  min-height: 540px;
+    width: 100%;
+    height: 100vh;
+    min-height: 540px;
 }
 
 /*header*/
