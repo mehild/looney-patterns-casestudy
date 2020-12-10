@@ -73,6 +73,7 @@ a {
   top: 40px;
   left: 0;
   right: 0;
+  z-index: 9998;
 }
   
 .free-background {
@@ -84,6 +85,7 @@ a {
   top: 0px;
   left: 0;
   right: 0;
+  z-index: 1;
   text-align: right;
 }
 
@@ -138,12 +140,12 @@ a {
 /*patterns*/
 
 .pattern-container {
-  position: relative;
-  border-bottom: 1px solid #FFA8C3;
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
-  align-content: start;
+    position: relative;
+    border-bottom: 1px solid #FFA8C3;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
+    align-content: start;
 }
 
 .pattern-container img {
@@ -196,7 +198,6 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
   align-content: start;
 }
-
 .item img {
 	width: 80px;
 	height: 80px;
@@ -209,7 +210,6 @@ a {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
-
 .patterns-container h3 { 
   margin: 10px 0; 
 }
@@ -219,6 +219,7 @@ a {
 .slider img {
 	margin: 20px 0 60px;
 	position: relative;
+
 }
 
 
@@ -229,8 +230,9 @@ a {
 	margin: 60px auto 60px;
 }
 
-.instagram {
+.instagram{
     position: relative;
+    z-index: 2;
     display: block;
     width: 100%;
     max-width: 280px;
